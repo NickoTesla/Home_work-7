@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: clean-folder
+Version: 1.0.0
+Summary: A tool to clean up a folder by moving files into subfolders based on their extensions
