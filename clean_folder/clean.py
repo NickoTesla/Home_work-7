@@ -64,11 +64,13 @@ def sort_files(path):
         for ext in EXTENSIONS[category]:
             print(f'  {ext}')
 
-
-if __name__ == "__main__":
+def main():
     if len(sys.argv) < 2:
         print("Використання: python3 sort_files.py path")
         sys.exit(1)
 
     path = sys.argv[1]
     sort_files(path)
+
+if __name__ == "__main__":
+    main()
